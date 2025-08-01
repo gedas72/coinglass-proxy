@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "env": {
+    "COINGLASS_API_KEY": "06ff8518dbd54f53953b415269693e50"
+  },
+  "rewrites": [
+    {
+      "source": "/api/coinglass",
+      "destination": "/api/coinglass.js"
+    }
+  ]
+}
